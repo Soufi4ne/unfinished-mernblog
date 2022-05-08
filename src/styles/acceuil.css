@@ -1,0 +1,36 @@
+.divmain{
+    margin-bottom: 80px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+}   
+
+.titre{
+    font-size: 1.25rem;
+    font-style: bold;
+    margin-top: 24px;
+    color: rgb(17 24 39);;
+}
+
+.p1{
+    /* position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.625;
+    font-size: 1rem;
+    margin-bottom: 1rem; */
+    margin-bottom: 1rem; 
+    font-size: 1.1rem;
+    line-height: 1.5rem; 
+    line-height: 1.625; 
+
+}
+
+@media (min-width: 640px) 
+{ 
+    .titre{
+    font-size: 2.5rem;
+
+}
+}

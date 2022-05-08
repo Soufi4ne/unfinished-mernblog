@@ -1,5 +1,15 @@
 .divconteneur{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   text-align: center;
   padding: 5px;
+  
+}
+
+@media (max-width: 640px) 
+{ 
+    .divconteneur{
+      padding-top: 5rem; 
+      max-width: 768px; 
+
+}
 }
