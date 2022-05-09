@@ -1,12 +1,22 @@
-import Acceuil from './pages/Acceuil';
 import './App.css';
+import React from 'react';
+import Acceuil from './pages/Acceuil';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="divconteneur">
-      {/* Ceci est un projet Full-Stack utilisant la stack M.E.R.N */}
-      <Acceuil />
-    </div>
+
+    <BrowserRouter>
+      <div className="divconteneur">
+        <Routes>
+
+          <Route path="/" element={<Acceuil />} />
+        </Routes>
+      </div>
+      {/* <div className="divconteneur"> */}
+
+      {/* </div> */}
+    </BrowserRouter>
   );
 }
 
